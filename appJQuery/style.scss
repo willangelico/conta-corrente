@@ -1,0 +1,41 @@
+// LARANJA
+$cor1 : #FF8702;
+$cor1hover : #FFA139;
+$cor1active: #d06f04;
+$background1 : #F4F7FA;
+$backgroundHead : #ededed;
+
+.container{
+	background: $background1;
+	h1, h2{
+		text-align: center;
+		color: $cor1;
+		padding: 10px;
+	}
+	form{
+		padding: 10px;
+		.btn{
+			background: $cor1;
+			border-color: $cor1hover;
+			&:hover{
+				background: $cor1hover;
+			}
+			&.active{
+				background: $cor1active;
+			}
+		}
+		input{
+			#value{
+				width: 40%;
+			}
+		}
+	}
+	table{
+		padding: 20px 0px;
+		thead{
+			background: $backgroundHead;
+		}
+	}
+
+}
+

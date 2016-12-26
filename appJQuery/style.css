@@ -1,0 +1,23 @@
+.container {
+  background: #F4F7FA; }
+  .container h1, .container h2 {
+    text-align: center;
+    color: #FF8702;
+    padding: 10px; }
+  .container form {
+    padding: 10px; }
+    .container form .btn {
+      background: #FF8702;
+      border-color: #FFA139; }
+      .container form .btn:hover {
+        background: #FFA139; }
+      .container form .btn.active {
+        background: #d06f04; }
+    .container form input #value {
+      width: 40%; }
+  .container table {
+    padding: 20px 0px; }
+    .container table thead {
+      background: #ededed; }
+
+/*# sourceMappingURL=style.css.map */
